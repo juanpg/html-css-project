@@ -1,0 +1,15 @@
+.bi {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.bd-navbar .dropdown-menu .active .bi {
+    display:block !important
+}
+
+:root {
+    color-scheme: light dark;
+    supported-color-schemes: light dark;
+}
