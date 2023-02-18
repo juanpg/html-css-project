@@ -97,96 +97,137 @@
         </symbol>
     </svg>
     <header class="text-center m-3">
-        <img src="images/Artboard 19.png" alt="Hair Day logo" style="max-width: 220px;">
+        <a href="index.html" alt="Home Page">
+          <img src="images/Artboard 19.png" alt="Hair Day logo" style="max-width: 220px;">
+        </a>
     </header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg rounded">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand pt-0">
-                    <img src="images/Artboard 22.png" alt="Home Page" style="max-width: 120px;">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" >
-                    <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg rounded container mb-lg-5">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto gap-4">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Book Appointment</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Tutorials</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item">Make-up</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Nails</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">View All</a>
+                  </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+                <span class="ms-2">Toggle theme</span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link active">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="book.html" class="nav-link">Book</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="services.html" class="nav-link">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="tutorials.html" class="nav-link">Tutorials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
-                            <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
-                            <span class="ms-2">Toggle theme</span>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
-                                <svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
-                                Light
-                                <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
-                                </button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
-                                <svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
-                                Dark
-                                <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
-                                </button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
-                                <svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
-                                Auto
-                                <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
-                                </button>
-                            </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form role="search">
-                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </div>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+                <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                    <svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
+                    Light
+                    <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                    <svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
+                    Dark
+                    <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                    <svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
+                    Auto
+                    <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                    </button>
+                </li>
+                </ul>
+            </li>
+          </ul>
+          <form role="search">
+              <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
     <main class="container">
       <div class="row text-center mb-5">
         <div class="col-lg-6 mx-auto">
-          <h1 class="display-5 fw-bold">Don't miss our current promotion!</h1>
+          <h1>Come visit us!</h1>
+          <img src="images/coupon.jpg" alt="Referal coupon image" class="d-block mx-auto mb-4 highlight">
+          <h2>Refer a friend,</h2>
+          <h2>Get <span class="text-danger">15% off</span> on your next visit.</h2>
+          <strong><a href="#">Book</a> your appointment now</strong>
         </div>
       </div>
-      <div class="row text-center mb-5">
-        <div class="col">
-          <h2>Tutorial of the week</h2>
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <h4 class="text-center mb-3">Tutorial of the week</h4>
+          <a href="#" class="mb-3">
+            <img src="images/nail_tutorial.jpg" alt="Photo of Nail polish" class="rounded border border-light d-block mx-auto highlight" style="object-fit: cover; width: 90%; max-height: 120px;">
+          </a>
+          <p class="px-3">
+            At our hair salon, we're all about helping you look and feel your best from head to toe. That's why we're excited to offer a <a href="#">tutorial for applying sparkling nail polish</a>!
+          </p>
+          <p class="px-3">
+            Whether you're looking to add a touch of glam to your everyday look or wanting to dazzle at a special occasion, our step-by-step guide will help you achieve the perfect sparkling manicure. From choosing the right base coat to applying the glitter polish, our tutorial covers everything you need to know to create a stunning and long-lasting look.
+          </p>
+          <p class="px-3">
+            So come visit us and let us help you add some sparkle to your style!
+          </p>
         </div>
-        <div class="col">
-          Info 2
+        <div class="col-md-4">
+          <h4 class="text-center mb-3">Our History and Mission</h4>
+          <p class="px-3">
+            <img src="images/about_us.jpg" alt="Photo of Pria, owner of Hair Day" class="border border-light float-start mx-3 rounded highlight" style="max-width: 200px;">
+            The history of our hair salon is one of friendship, passion, and expertise. Founded by Pria and Garry, two close friends with a shared love for hairdressing, our salon has become a go-to destination for quality hair services. Pria, who earned her certificate as a colorist, has a keen eye for color and is skilled in creating unique and personalized hair color for her clients. Garry, on the other hand, is a talented hairdresser with years of experience in cutting, styling, and hair care. Together, they have created a welcoming and professional space where clients can come and feel their best. With a focus on quality, creativity, and client satisfaction, our salon has built a reputation for excellence over the years.
+          </p>
         </div>
-        <div class="col">
-          Info 3
+        <div class="col-md-4">
+          <h4 class="text-center mb-3">Where to find us</h4>
+          <p class="px-3 mb-3 clearfix">
+            <img src="images/store_front.jpg" alt="Hair Day store front" class="border border-light float-end mx-3 rounded highlight" style="max-width: 200px;">
+            We're located on <span class="text-body-emphasis">2801 Civic Cir Blvd #7, Marion, IL 62959</span>. Come visit us from <span class="text-body-emphasis">Monday through Saturday, from 10am till 6pm</span>.
+          </p>
+          <img src="images/map.jpg" alt="Map of our location" class="rounded border border-light d-block mx-auto img-fluid">
+          <div class="text-center my-2">
+            <a href="https://goo.gl/maps/NNLsUjJusN1j2FYQ9" class="btn btn-primary text-white" role="button" target="_blank">Directions</a>
+          </div>
         </div>
       </div>
     </main>
-    <footer class="container text-center">
+    <footer class="container text-center mb-2 text-muted">
       <div class="row">
         <div class="col">
-          <img src="images/Artboard 19.png" alt="Hair Salon logo" style="max-width: 100px;">
+          <a href="index.html" alt="Home Page">
+            <img src="images/Artboard 22.png" alt="Hair Salon logo" style="max-width: 100px;">
+          </a>
         </div>
         <div class="col">
-          &copy; Hair Salon 2023
+          &copy; Copyright 2023
         </div>
       </div>
     </footer>
