@@ -1,3 +1,8 @@
+:root {
+    color-scheme: light dark;
+    supported-color-schemes: light dark;
+}
+
 .bi {
     width: 1em;
     height: 1em;
@@ -9,7 +14,27 @@
     display:block !important
 }
 
-:root {
-    color-scheme: light dark;
-    supported-color-schemes: light dark;
+.highlight:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+a:any-link, .nav-link {
+    color: #d0604c;
+}
+
+.nav-link:hover {
+    color: #f2e0d2 !important;
+    background-color: var(--bs-body-color);
+}
+
+a.active {
+    color: #f2e0d2 !important;
+    background-color: var(--bs-body-color);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-dropdown-link-active-color);
+    text-decoration: none;
+    background-color: #d0604c;
 }
